@@ -1,4 +1,10 @@
 Sylius Demo Supplier
+---
 
-Installation
-------------
+@todo
+===
+
+* translation
+* behat test
+* extract to a Bundle
+ 
