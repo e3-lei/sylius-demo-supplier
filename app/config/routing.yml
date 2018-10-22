@@ -26,3 +26,7 @@ sylius_shop_default_locale:
 
 _liip_imagine:
     resource: '@LiipImagineBundle/Resources/config/routing.yaml'
+
+app_admin:
+    resource: 'routing/admin.yml'
+    prefix: /admin
