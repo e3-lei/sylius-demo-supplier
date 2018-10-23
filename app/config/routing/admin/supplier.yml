@@ -9,5 +9,5 @@ app_admin_supplier:
             all:
                 subheader: app.ui.supplier
             index:
-                icon: 'file image outline'
+                icon: 'star outline'
     type: sylius.resource

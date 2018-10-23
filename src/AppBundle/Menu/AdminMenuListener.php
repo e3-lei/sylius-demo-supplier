@@ -13,12 +13,12 @@ final class AdminMenuListener
 
         $newSubmenu = $menu
             ->addChild('extra')
-            ->setLabel('Custom Admin Submenu')
+            ->setLabel('app.menu.admin.extra.main')
         ;
 
         $newSubmenu
-            ->addChild('Supplier', ['route' => 'app_admin_supplier_index'])
-            ->setLabel('Supplier')
+            ->addChild('supplier', ['route' => 'app_admin_supplier_index'])
+            ->setLabel('app.menu.admin.extra.supplier')
             ->setLabelAttribute('icon', 'star')
         ;
     }
