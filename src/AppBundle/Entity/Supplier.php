@@ -8,9 +8,7 @@ declare(strict_types=1);
 
 namespace AppBundle\Entity;
 
-use Sylius\Component\Resource\Model\ResourceInterface;
-
-class Supplier implements ResourceInterface
+class Supplier implements SupplierInterface
 {
     private $id;
 
